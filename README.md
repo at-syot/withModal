@@ -6,7 +6,7 @@
   ## usage
   withModal(modalType)(YourModalComponent)
   
-  ```
+  ```JavaScript
   arg: 
     modalType:
       - type: String
@@ -21,7 +21,7 @@
   
   ### Use with Modal
 
-  ```
+  ```JavaScript
   const YourModalComponent = (props) => {
     // Available props from withModal HOC
     // use it for modal's props
