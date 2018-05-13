@@ -6,16 +6,14 @@
   #### usage
   withModal(modalType)(YourModalComponent)
 
-  '''
   arg: 
     modalType:
       - type: String
-      - desc: A type of your modal such as 'EDIT_USER_MODAL'
+      - desc: A type of your modal such as 'EDIT_USER_MODAL
     
     YourModalComponent:
       - type: JSX ele
       - desc: Modal Component (stateless and fullstate are supported)
-  '''
 
   #### Example:
   
