@@ -3,9 +3,10 @@
   withModal is a HOC that enhance you native modal.
   It's provide some props for your modal component
 
-# usage
+  #### usage
   withModal(modalType)(YourModalComponent)
 
+  '''
   arg: 
     modalType:
       - type: String
@@ -14,11 +15,13 @@
     YourModalComponent:
       - type: JSX ele
       - desc: Modal Component (stateless and fullstate are supported)
+  '''
 
-  Example:
+  #### Example:
   
-  // Use with Modal
+  ###### Use with Modal
 
+  '''
   const YourModalComponent = (props) => {
     // Available props from withModal HOC
     // use it for modal's props
@@ -32,5 +35,6 @@
   }
 
   withModal("SAMPLE_MODAL")(YourModalComponent)
+  '''
      
     
